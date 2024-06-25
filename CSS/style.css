@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#1E202B;
+}
+:root{
+    --second-color:#009AD8;
+}
+:root{
+    --footer-color:#262936;
+}
+.bg-gray{
+    background-color: #323544;
+}
+.bg-gray-head{
+    background-color: #2C2F3C;
+}
+.bg-darkGray{
+    background-color: #262936;
+}
+.bg-dark-head{
+    background-color: #222530;
+}
+
+
+nav{
+    background-color:var(--main-color) ;
+    
+}
+nav .nav-link{
+    color: white;
+}
+#homeBtn , #homeAncor{
+    color: var(--second-color);
+    
+    border: 3px solid;
+    border-color: var(--second-color);
+    
+}
+.nav-link:hover , .nav-link:focus{
+    color:var(--second-color) !important;
+    border: 2px solid;
+    border-color: var(--second-color);
+    
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.homePage header{
+    height: 90vh;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:top center;
+    background-color: var(--main-color);
+}
+.border-success{
+    border-color: transparent !important;
+}
+.card-body p{
+    color: var(--second-color);
+}
+.homePage .btn {
+    background-color: var(--second-color);
+    color: white;
+   
+    
+}
+.input-group .btn{
+    z-index: 0;
+}
+.homePage .btn:hover{
+    background-color: var(--second-color);
+    color: white;
+}
+.homePage .btn:focus{
+    background-color: var(--second-color) !important;
+    color: white !important;
+    border-color: var(--second-color) !important;
+}
+.form-control{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.form-control:focus{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+}
+.form-control::placeholder{
+    color: #777;
+    padding-left: 5px;
+}
+footer{
+    background-color: var(--footer-color);
+}
+footer .icons .icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+footer .icons :hover{
+    background-color: var(--second-color);
+    color: white;
+}
+#contactPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--main-color);
+}
+.breadcrumb a:hover{
+    text-decoration:underline;
+}
+.contactPage i{
+    color: #ccc;
+}
+.breadcrumb{
+    background-color: var(--footer-color);
+
+}
+.contactPage .card{
+    background-color: var(--footer-color);
+    height: 300px;
+    width: 450px;
+}
+.contactPage .form-control{
+    background-color: var(--footer-color);
+    
+}
+.contactPage .form-control:hover{
+    border-color: var(--second-color);
+}
+textarea {
+    height: 150px;
+}
+.formBtn button{
+    background-color: var(--second-color);
+}
+.formBtn .btn:hover{
+    background-color: var(--second-color);
+    color: white;
+}
