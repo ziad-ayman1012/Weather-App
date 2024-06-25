@@ -52,8 +52,8 @@ a{
     text-decoration: none;
 }
 
-.homePage header{
-    height: 90vh;
+ header{
+    height: 100vh;
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     background-size:contain;
@@ -66,7 +66,7 @@ a{
 .card-body p{
     color: var(--second-color);
 }
-.homePage .btn {
+ .btn {
     background-color: var(--second-color);
     color: white;
    
@@ -75,11 +75,11 @@ a{
 .input-group .btn{
     z-index: 0;
 }
-.homePage .btn:hover{
+ .btn:hover{
     background-color: var(--second-color);
     color: white;
 }
-.homePage .btn:focus{
+ .btn:focus{
     background-color: var(--second-color) !important;
     color: white !important;
     border-color: var(--second-color) !important;
